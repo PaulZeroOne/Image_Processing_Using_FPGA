@@ -1,2 +1,2 @@
 # Image Processing Using FPGA
-## This was developed and simulated on Verilog. We process an image using Verilog from reading an input bitmap image (.bmp) in Verilog, processing and writing the processed result to an output bitmap image in Verilog.
+This was developed and simulated on Verilog. We process an image using Verilog from reading an input bitmap image (.bmp) in Verilog, processing and writing the processed result to an output bitmap image in Verilog. To read the .bmp image on in Verilog, the image is required to be converted from the bitmap format to the hexadecimal format. The image processing operation is selected by a "parameter.v" file and then, the processed image data are written to a bitmap image output.bmp for verification purposes.
